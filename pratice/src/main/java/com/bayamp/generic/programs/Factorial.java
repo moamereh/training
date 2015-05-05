@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 
 public class Factorial  {
 
-	@Test
-	public static void test(){
+
+	public static void main(String[] args){
 		Scanner enter =new Scanner(System.in);
 		System.out.println("enter");
 
