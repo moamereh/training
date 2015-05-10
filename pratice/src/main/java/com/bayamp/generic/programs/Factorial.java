@@ -14,15 +14,14 @@ public class Factorial  {
 		System.out.println("enter");
 
 		int num = enter.nextInt();
-		int factorial = factorial(num);
+		int factorial = factorialUsingIteration(num);
 
 		System.out.println(+factorial);
 
 		enter.close();
 	}
 
-	public static int factorial(int num) { 
-
+	public static int factorialUsingIteration(int num) { 
 
 
 		int result=1;
@@ -34,5 +33,17 @@ public class Factorial  {
 
 
 	}
+	
+	public static int factorialUsingRecursion(int num) { 
+
+
+		int result=1;
+
+		return result;
+
+
+
+	}
+	
 
 }
